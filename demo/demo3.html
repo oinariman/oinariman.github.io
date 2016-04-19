@@ -9,16 +9,15 @@
         position: relative;
         width: 100%;
         height: 100%;
-        background-color: #101010;
         margin-top: 100px;
       }
       #top-left { 
-        background-color: yellow;
+        background-color: #552700;
         width: 40px;
         height: 40px;
       }
       #top-header { 
-        background-color: orange;
+        background-color: #552700;
         width: 240px;
         height: 40px;
         position: absolute;
@@ -29,17 +28,25 @@
       }
       div.top-box {
         width: 79px;
-        height: 40px;
-        background-color: red;
-        border-right: solid 1px blue;
+        height: 39px;
+        background-color: #d49a6a;
+        border-right: solid 1px #804515;
+        border-bottom: solid 1px #804515;
         float: left;
       }
       #left-header { 
-        background-color: blue;
+        background-color: #552700;
         width: 40px;
         height: 300px;
         overflow-x: hidden;
         overflow-y: hidden;
+      }
+      div.left-box {
+        width: 39px;
+        height: 119px;
+        background-color: #d49a6a;
+        border-right: solid 1px #804515;
+        border-bottom: solid 1px #804515;
       }
       #content-container {
         background-color: #C0C0C0;
@@ -57,13 +64,13 @@
       div.box {
         width: 80px;
         height: 120px;
-        background-color: red;
+        background-color: #ffd1aa;
         float: left;
       }
       div.box2 {
         width: 80px;
         height: 120px;
-        background-color: green;
+        background-color: #d49a6a;
         float: left;
       }
       span.break {
@@ -76,12 +83,28 @@
 <div id="container">
   <div id="top-left"></div>
   <div id="top-header">
-    <div style="font-size: 48px; width: 1024px;">
-      <div class="top-box"></div><div class="top-box"></div><div class="top-box"></div><div class="top-box"></div><div class="top-box"></div><div class="top-box"></div><div class="top-box"></div><div class="top-box"></div>
+    <div style="font-size: 14px; width: 1024px;">
+      <div class="top-box">screen 1</div>
+      <div class="top-box">screen 2</div>
+      <div class="top-box">screen 3</div>
+      <div class="top-box">screen 4</div>
+      <div class="top-box">screen 5</div>
+      <div class="top-box">screen 6</div>
+      <div class="top-box">screen 7</div>
+      <div class="top-box">screen 8</div>
     </div>
   </div>
   <div id="left-header">
-    <div style="font-size: 48px; width: 40px; height: 1024px;">a b c d e f g h i j k l m n o p q r s t u</div>
+    <div style="font-size: 12px; width: 40px; height: 1024px;">
+      <div class="left-box">9:00</div>
+      <div class="left-box">10:00</div>
+      <div class="left-box">11:00</div>
+      <div class="left-box">12:00</div>
+      <div class="left-box">13:00</div>
+      <div class="left-box">14:00</div>
+      <div class="left-box">15:00</div>
+      <div class="left-box">16:00</div>
+    </div>
   </div>
   <div id="content-container">
     <div id="content">
@@ -107,11 +130,14 @@
 
 </div>
 <script type="text/javascript">
-$(document).ready(function() {
+function resize() {
  var w = $(window).width() - 40;
  $("#top-header").width(w);
  $("#content-container").width(w);
-});
+}
+
+$(document).ready(function() { resize(); });
+$(window).resize(function() { resize(); });
 function $E(id){ return document.getElementById(id); }
 function scroll(){
   console.log("it works");
