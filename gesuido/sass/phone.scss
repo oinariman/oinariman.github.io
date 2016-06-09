@@ -1,0 +1,22 @@
+@media screen and (max-width: 480px) {
+
+body {
+  width: 100%;
+}
+
+p,
+ul.press
+{
+  padding: 0 1em;
+}
+
+ul.photos {
+  width: 160px;
+  margin: 0 auto;
+}
+
+ul.photos li {
+  margin-bottom: 5px;
+}
+
+}

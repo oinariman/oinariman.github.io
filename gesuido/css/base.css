@@ -1,0 +1,128 @@
+/* colors */
+/* common mix ins */
+/*************/
+/* line 20, ../sass/base.scss */
+body {
+  color: #00ffff;
+  background-color: #202020;
+  width: 480px;
+  margin: 0 auto;
+  font-size: 14px;
+}
+
+/* line 28, ../sass/base.scss */
+#warp-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -1;
+  height: 1400px;
+}
+
+/* line 37, ../sass/base.scss */
+a {
+  color: #00ffff;
+  text-decoration: none;
+}
+
+/* line 42, ../sass/base.scss */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 46, ../sass/base.scss */
+a:visited {
+  color: #00a0a0;
+}
+
+/* line 50, ../sass/base.scss */
+h1, h2 {
+  text-align: center;
+}
+
+/* line 54, ../sass/base.scss */
+h2 {
+  font-size: 18px;
+  margin-top: 60px;
+}
+
+/* line 59, ../sass/base.scss */
+ul {
+  list-style: none none inside;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 63, ../sass/base.scss */
+ul.photos {
+  overflow: hidden;
+  *zoom: 1;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 69, ../sass/base.scss */
+ul.photos li {
+  display: block;
+  width: 158px;
+  height: 158px;
+  float: left;
+  border: solid 1px #00ffff;
+}
+
+/* line 77, ../sass/base.scss */
+ul.photos li img {
+  width: 158px;
+  height: 158px;
+  overflow: hidden;
+}
+
+/* line 83, ../sass/base.scss */
+ul.press {
+  font-size: 12px;
+}
+
+/* line 87, ../sass/base.scss */
+ul.press li {
+  margin-bottom: 1em;
+}
+
+/* line 91, ../sass/base.scss */
+p.developer {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+/* line 96, ../sass/base.scss */
+.dot {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background-color: #00ffff;
+}
+
+/* line 103, ../sass/base.scss */
+ul.language {
+  overflow: hidden;
+  *zoom: 1;
+}
+
+/* line 107, ../sass/base.scss */
+ul.language li {
+  display: inline-block;
+  float: left;
+  font-size: 64px;
+  width: 50%;
+  text-align: center;
+}
+
+/* line 115, ../sass/base.scss */
+p.copyright {
+  text-align: center;
+}
+
+/* line 119, ../sass/base.scss */
+p.when {
+  text-align: center;
+}

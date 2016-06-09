@@ -1,0 +1,121 @@
+@import "compass/css3/border-radius";
+@import "compass/utilities/general/clearfix";
+
+/* colors */
+
+$text-color: #00ffff;
+$visited-color: #00a0a0;
+$bg-color: #202020;
+
+/* common mix ins */
+
+@mixin standard-ul() {
+    list-style: none none inside;
+    margin: 0;
+    padding: 0;
+}
+
+/*************/
+
+body {
+    color: $text-color;
+    background-color: $bg-color;
+    width: 480px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+#warp-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -1;
+    height: 1400px;
+}
+
+a {
+    color: $text-color;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: $visited-color;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 60px;
+}
+
+ul {
+    @include standard-ul;
+}
+
+ul.photos {
+    @include clearfix;
+    margin: 0;
+    padding: 0;
+}
+
+ul.photos li {
+    display: block;
+    width: 160px - 2px;
+    height: 160px - 2px;
+    float: left;
+    border: solid 1px $text-color;
+}
+
+ul.photos li img {
+    width: 160px - 2px;
+    height: 160px - 2px;
+    overflow: hidden;
+}
+
+ul.press {
+    font-size: 12px;
+}
+
+ul.press li {
+    margin-bottom: 1em;
+}
+
+p.developer {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.dot {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background-color: $text-color;
+}
+
+ul.language {
+    @include clearfix;
+}
+
+ul.language li {
+    display: inline-block;
+    float: left;
+    font-size: 64px;
+    width: 50%;
+    text-align: center;
+}
+
+p.copyright {
+    text-align: center;
+}
+
+p.when {
+    text-align: center;
+}
