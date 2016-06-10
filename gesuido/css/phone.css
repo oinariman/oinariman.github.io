@@ -20,4 +20,9 @@
   ul.photos li {
     margin-bottom: 5px;
   }
+
+  /* line 22, ../sass/phone.scss */
+  ul.language li {
+    font-size: 36px;
+  }
 }

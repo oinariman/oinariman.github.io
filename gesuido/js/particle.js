@@ -24,7 +24,7 @@ function resize() {
 }
 
 function generate() {
-    for (var i = 0; i < 5; i++) {
+    for (var i = 0; i < 5 && w > 480; i++) {
 	var dot = $("<div class=\"dot\"></div>");
 	dot.offset({left:x0, top: y0});
 	var size=Math.ceil(Math.random()*2);
