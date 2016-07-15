@@ -25,4 +25,13 @@
   ul.language li {
     font-size: 36px;
   }
+
+  /* line 26, ../sass/phone.scss */
+  #logo {
+    text-indent: -90000px;
+    background: url("../images/logo240@2x.png") no-repeat;
+    background-size: 240px 65px;
+    width: 240px;
+    height: 65px;
+  }
 }
