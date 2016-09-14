@@ -1,0 +1,26 @@
+@media screen and (max-width: 480px) {
+  body {
+    width: 100%; }
+
+  p,
+  ul.press {
+    padding: 0 1em; }
+
+  ul.photos {
+    width: 160px;
+    margin: 0 auto; }
+
+  ul.photos li {
+    margin-bottom: 5px; }
+
+  ul.language li {
+    font-size: 36px; }
+
+  #logo {
+    text-indent: -90000px;
+    background: url("../images/logo240@2x.png") no-repeat;
+    background-size: 240px 65px;
+    width: 240px;
+    height: 65px; } }
+
+/*# sourceMappingURL=phone.css.map */

@@ -80,6 +80,26 @@ ul.photos li img {
     overflow: hidden;
 }
 
+ul.ss {
+    @include clearfix;
+    margin: 0;
+    padding: 0;
+}
+
+ul.ss li {
+    display: block;
+    width: 160px - 2px;
+    height: 284px - 2px;
+    float: left;
+    border: solid 1px $text-color;
+}
+
+ul.ss li img {
+    width: 160px - 2px;
+    height: 284px - 2px;
+    overflow: hidden;
+}
+
 ul.press {
     font-size: 12px;
 }

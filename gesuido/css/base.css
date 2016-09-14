@@ -79,22 +79,46 @@ ul.photos li img {
 }
 
 /* line 83, ../sass/base.scss */
+ul.ss {
+  overflow: hidden;
+  *zoom: 1;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 89, ../sass/base.scss */
+ul.ss li {
+  display: block;
+  width: 158px;
+  height: 282px;
+  float: left;
+  border: solid 1px #00ffff;
+}
+
+/* line 97, ../sass/base.scss */
+ul.ss li img {
+  width: 158px;
+  height: 282px;
+  overflow: hidden;
+}
+
+/* line 103, ../sass/base.scss */
 ul.press {
   font-size: 12px;
 }
 
-/* line 87, ../sass/base.scss */
+/* line 107, ../sass/base.scss */
 ul.press li {
   margin-bottom: 1em;
 }
 
-/* line 91, ../sass/base.scss */
+/* line 111, ../sass/base.scss */
 p.developer {
   text-align: center;
   margin-bottom: 80px;
 }
 
-/* line 96, ../sass/base.scss */
+/* line 116, ../sass/base.scss */
 .dot {
   position: absolute;
   width: 2px;
@@ -102,13 +126,13 @@ p.developer {
   background-color: #00ffff;
 }
 
-/* line 103, ../sass/base.scss */
+/* line 123, ../sass/base.scss */
 ul.language {
   overflow: hidden;
   *zoom: 1;
 }
 
-/* line 107, ../sass/base.scss */
+/* line 127, ../sass/base.scss */
 ul.language li {
   display: inline-block;
   float: left;
@@ -117,17 +141,17 @@ ul.language li {
   text-align: center;
 }
 
-/* line 115, ../sass/base.scss */
+/* line 135, ../sass/base.scss */
 p.copyright {
   text-align: center;
 }
 
-/* line 119, ../sass/base.scss */
+/* line 139, ../sass/base.scss */
 p.when {
   text-align: center;
 }
 
-/* line 123, ../sass/base.scss */
+/* line 143, ../sass/base.scss */
 #logo {
   text-indent: -90000px;
   background: url("../images/logo320@2x.png") no-repeat;
