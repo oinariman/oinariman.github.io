@@ -1,0 +1,37 @@
+@media screen and (max-width: 480px) {
+  /* line 3, ../sass/phone.scss */
+  body {
+    width: 100%;
+  }
+
+  /* line 7, ../sass/phone.scss */
+  p,
+  ul.press {
+    padding: 0 1em;
+  }
+
+  /* line 13, ../sass/phone.scss */
+  ul.photos {
+    width: 160px;
+    margin: 0 auto;
+  }
+
+  /* line 18, ../sass/phone.scss */
+  ul.photos li {
+    margin-bottom: 5px;
+  }
+
+  /* line 22, ../sass/phone.scss */
+  ul.language li {
+    font-size: 36px;
+  }
+
+  /* line 26, ../sass/phone.scss */
+  #logo {
+    text-indent: -90000px;
+    background: url("../images/logo240@2x.png") no-repeat;
+    background-size: 240px 65px;
+    width: 240px;
+    height: 65px;
+  }
+}
