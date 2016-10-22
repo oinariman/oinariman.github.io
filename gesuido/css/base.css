@@ -152,6 +152,12 @@ p.when {
 }
 
 /* line 143, ../sass/base.scss */
+p.progress-update {
+  text-align: right;
+  font-size: 12px;
+}
+
+/* line 148, ../sass/base.scss */
 #logo {
   text-indent: -90000px;
   background: url("../images/logo320@2x.png") no-repeat;
@@ -161,4 +167,21 @@ p.when {
   margin-top: 2em;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* line 159, ../sass/base.scss */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* line 164, ../sass/base.scss */
+table th,
+table td {
+  border: solid 1px #00a0a0;
+}
+
+/* line 169, ../sass/base.scss */
+table td {
+  text-align: center;
 }

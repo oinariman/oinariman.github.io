@@ -140,6 +140,11 @@ p.when {
     text-align: center;
 }
 
+p.progress-update {
+    text-align: right;
+    font-size: 12px;
+}
+
 #logo {
     text-indent: -90000px;
     background: url("../images/logo320@2x.png") no-repeat;
@@ -149,4 +154,18 @@ p.when {
     margin-top: 2em;
     margin-left: auto;
     margin-right: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    border: solid 1px $visited-color;
+}
+
+table td {
+    text-align: center;
 }
