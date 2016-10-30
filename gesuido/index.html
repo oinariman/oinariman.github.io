@@ -12,6 +12,11 @@
     <link rel="apple-touch-icon-precomposed" href="http://25.media.tumblr.com/avatar_21a81fdb21d6_128.png">
   </head>
   <body>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/sprintf.js"></script>
+    <script src="../js/Chart.min.js"></script>
+
+
     <h1 class="text-center" id="logo">Gesuido</h1>
     <ul class="language">
       <li class="left"><a href="./en/">English</a></li>
@@ -20,16 +25,11 @@
     <p style="text-align: center;"><a href="./press.html">Press Kit</a></p>
 
     <h2>Progress</h2>
-    <table>
-      <tr><th>Mechanics</th><td>42.35%</td></tr>
-      <tr><th>UI</th><td>51.11%</td></tr>
-      <tr><th>Level Design</th><td>12.0%</td></tr>
-      <tr><th>Art</th><td>70.0%</td></tr>
-      <tr><th>Sound</th><td>25.0%</td></tr>
-      <tr><th>Music</th><td>35.0%</td></tr>
-      <tr><th>Overall</th><td>40.71%</td></tr>
-    </table>
-    <p class="progress-update">Updated: 20161023</p>
+    <table id="progress"></table>
+    <p class="progress-update"></p>
+
+    <canvas id="myChart" width="400" height="400" style="margin-top: 2em; margin-bottom: 2em;"></canvas>
+    <script src="./js/progress_chart.js"></script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
