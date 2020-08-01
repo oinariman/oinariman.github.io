@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- example file containing base tags -->
+
+<game>	
+	<title>Ryosuke Mihara</title>
+	<founding-date>January 21, 1980</founding-date>
+	<website>https://mihararyosuke.com</website>
+	<based-in>Tokyo, Japan</based-in>
+	
+	<press-contact>mihara.ryosuke@gmail.com</press-contact>
+	<phone></phone>
+	<address></address>
+
+	<socials>
+		<social>
+			<name>twitter.com/oinariman</name>
+			<link>twitter.com/oinariman</link>
+		</social>
+		<social>
+			<name>facebook.com/oinariman</name>
+			<link>facebook.com/oinariman</link>
+		</social>
+	</socials>
+
+	<description>	
+		A programmer who wants to make games.
+	</description>
+		
+	<histories>
+	</histories>
+		
+	<trailers>
+	</trailers>
+	
+	<awards>
+	</awards>
+	
+	<quotes>
+	</quotes>
+	
+	<press-can-request-copy>FALSE</press-can-request-copy> <!-- can be true or false -->
+	<monetization-permission>monetize</monetization-permission> <!-- can be: 	false (no video allowed),
+																			 	ask (permission on case-per-case basis),
+																			 	non-commercial (no monetization allowed),
+																			 	monetize (full permission) -->	
+	<additionals>
+	</additionals>
+	
+	<credits>
+	</credits>
+	
+	<contacts>
+		<contact>
+			<name>Inquiries</name>
+			<mail>mihara.ryosuke@gmail.com</mail>
+		</contact>
+		<contact>
+			<name>Twitter</name>
+			<link>https://twitter.com/oinariman</link>
+		</contact>
+		<contact>
+			<name>Facebook</name>
+			<link>https://facebook.com/oinariman</link>
+		</contact>
+		<contact>
+			<name>Web</name>
+			<link>mihararyosuke.com</link>
+		</contact>
+	</contacts>
+</game>

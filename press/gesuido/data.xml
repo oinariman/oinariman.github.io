@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<game>
+	<title>Gesuido</title>
+	<release-date>TBA</release-date>
+	<website>https://mihararyosuke.com/gesuido/</website>
+	<press-can-request-copy>FALSE</press-can-request-copy>
+
+	<platforms>
+		<platform>
+			<name>Apple App Store</name>
+			<link>http://www.itunes.com/</link>
+		</platform>
+	</platforms>
+	
+	<prices>
+	</prices>
+
+	<description>Gesuido is a turn-based roguelike game focused on survival. The protagonist with massive debt (looks like the game’s author for some reason) explores the underground sewer of Tokyo, which are full of mysterious gems.</description>
+	
+	<history></history>
+
+	<features>
+		<feature>Traditional rouguelike elements: turn-based, grid-based, permadeath and procedural generated levels.</feature>
+		<feature>Simple UI.</feature>
+		<feature>20+ types of NPCs which are represented by black and white pixel art face icons.</feature>
+		<feature>50+ types of items (medieval/modern/sci-fi weapons, armors, foods, potions  etc.)</feature>
+		<feature>20+ types of magical cards that provide special effects or abilities.</feature>
+		<feature>Traps, hidden rooms and vending machines.</feature>
+	</features>
+	
+	<trailers>
+		<!-- <trailer>
+			<name>Trailer</name>
+			<youtube>7jQbITg0MSk</youtube>
+			<vimeo>23571681</vimeo>
+		</trailer> -->
+	</trailers>
+	
+	<awards>
+		<!-- <award>
+			<description>Winner in this highly relevant contest.</description>
+			<info>Award Location, 20 October, 1989</info>
+		</award> -->
+	</awards>
+	
+	<quotes>
+		<!-- <quote>
+			<description>This is a rather insignificant quote by a highly important person.</description>
+			<name>Person Name</name>
+			<website>Website</website>
+			<link>http://</link>
+		</quote> -->
+	</quotes>
+	
+	<additionals>
+		<!-- <additional>
+			<title>Original Soundtrack</title>
+			<description>Available for free from</description>
+			<link>http://somemusicsite.com/thislink</link>
+		</additional> -->
+	</additionals>
+	
+	<credits>
+		<credit>
+			<person>Ryosuke Mihara (三原亮介)</person>
+			<role>Game Design, Programming, Pixel Art, Music</role>
+		</credit>
+		<credit>
+			<person>Monyochita Pomichi (モニョチタポミチ)</person>
+			<role>Logo Design, Illustration</role>
+			<website>https://www.instagram.com/monyochita/</website>
+		</credit>
+	</credits>
+</game>
