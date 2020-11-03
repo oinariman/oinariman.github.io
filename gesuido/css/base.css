@@ -165,3 +165,14 @@ table td {
 table td {
   text-align: center;
 }
+
+p.gem {
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  font-size: 18px;
+}
+
+p.gem-time {
+  margin-top: 0px;
+  font-size: 10px;
+}
