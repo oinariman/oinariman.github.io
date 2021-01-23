@@ -1,0 +1,13 @@
+ul#list {
+  font-size: 18px;
+  text-align: center;
+}
+
+ul#list span {
+  font-size: 14px;
+}
+
+ul.sub_list {
+  font-size: 12px;
+  margin-bottom: 2em;
+}
