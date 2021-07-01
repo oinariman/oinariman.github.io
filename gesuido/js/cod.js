@@ -6,6 +6,7 @@ var config = {
 firebase.initializeApp(config);
 
 function addCOD(data) {
+  if (data.player_id == "dev") { return }
   let row = "<li>" + data.cause_of_death + "&nbsp;<span>" + data.created_at.toDate().toTwitterRelativeTime('ja') + "</span>";
   row += "<ul class=\"sub_list\"><li>Lv. " + data.survival_level + " / ";
   row += "生存時間: 約 " + data.elapsed_time / 8 + " ターン / ";
